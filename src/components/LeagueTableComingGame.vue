@@ -3,7 +3,7 @@
     class="match-tooltip-block"
     @click="openTooltip($event)">
     <a
-      :href="'/match/' + match.id"
+      :href="'/matches/match/' + match.id"
       class="comming-match-link">
       <img
         :src="'/data/'+ teamName +'/' + teamName + '.svg'"
