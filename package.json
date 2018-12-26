@@ -10,7 +10,7 @@
     "lint:fix": "eslint --ext .js,.vue src --fix"
   },
   "author": "imhvost",
-  "license": "MIT",
+  "license": "",
   "dependencies": {
     "install": "^0.12.1",
     "moment": "^2.22.2",
