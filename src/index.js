@@ -13,9 +13,9 @@ const router = new Router(createRouter)
 new Vue({
   el: '#app',
   data: {
-    currentSeason: '2018/19',
+    currentSeason: '2019/20',
     seasons: {
-      '2018/19': 2021
+      '2019/20': 2021
     }
   },
   render: h => h(App),
