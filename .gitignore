@@ -2,3 +2,5 @@ node_modules/
 dist/
 src/static/img/flags/
 src/static/img/players/
+src/static/img/players/
+package-lock.json
