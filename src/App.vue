@@ -30,10 +30,10 @@
                     :href="'https://twitter.com/intent/tweet?url=' + location + '&text=' + description"
                     target="_blank"
                     class="icon-twitter-bird"/></li>
-                  <li><a
+                  <!-- <li><a
                     :href="'https://plus.google.com/share?url=' + location"
                     target="_blank"
-                    class="icon-googleplus-rect"/></li>
+                    class="icon-googleplus-rect"/></li> -->
                   <li><a
                     :href="'https://connect.ok.ru/dk?st.cmd=OAuth2Login&st.layout=w&st.redirect=%252Fdk%253Fcmd%253DWidgetSharePreview%2526amp%253Bst.cmd%253DWidgetSharePreview%2526amp%253Bst.shareUrl='+ location +'&st.client_id=-1'"
                     target="_blank"

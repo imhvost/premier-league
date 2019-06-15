@@ -27,6 +27,9 @@ function translateTeamName (teamName) {
     case 'wolverhampton wanderers fc': return 'Вулверхэмптон'
     case 'fulham fc': return 'Фулхэм'
     case 'cardiff city fc': return 'Кардифф Сити'
+    case 'aston villa fc': return 'Астон Вилла'
+    case 'norwich city fc': return 'Норвич Сити'
+    case 'sheffield united fc': return 'Шеффилд Юнайтед'
   }
 }
 
