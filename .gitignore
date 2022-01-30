@@ -1,5 +1,6 @@
 node_modules/
 dist/
+back/
 src/static/img/flags/
 src/static/img/players/
 src/static/img/players/
