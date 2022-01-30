@@ -129,8 +129,8 @@ export default {
     const season = this.$root.seasons[this.$root.currentSeason]
     const getData = Promise.all(
       [
-        GetData.api('competition', season, 'http://api.football-data.org/v2/competitions/' + season),
-        GetData.api('matches', season, 'http://api.football-data.org/v2/competitions/' + season + '/matches')
+        GetData.api('competition', season, 'https://api.football-data.org/v2/competitions/' + season),
+        GetData.api('matches', season, 'https://api.football-data.org/v2/competitions/' + season + '/matches')
       ]
     )
 

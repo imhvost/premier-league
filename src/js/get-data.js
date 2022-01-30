@@ -27,7 +27,7 @@ function getDataApi (name, foldel, url, time = 120) {
     body: body
   }
   // let f = fetch('http://localhost/work/pl_new/src/static/php/functions.php', option)
-  let f = fetch('https://premier-league.xyz/static/php/functions.php', option)
+  let f = fetch('https://premier-league.imhvost.top/static/php/functions.php', option)
 
   return f.then((response) => {
     return response.json()

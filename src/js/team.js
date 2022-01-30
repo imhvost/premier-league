@@ -30,6 +30,8 @@ function translateTeamName (teamName) {
     case 'aston villa fc': return 'Астон Вилла'
     case 'norwich city fc': return 'Норвич Сити'
     case 'sheffield united fc': return 'Шеффилд Юнайтед'
+    case 'leeds united fc': return 'Лидс Юнайтед'
+    case 'brentford fc': return 'Брентфорд'
   }
 }
 

@@ -124,7 +124,7 @@ export default {
   beforeCreate: function () {
     let self = this
     const season = this.$root.seasons[this.$root.currentSeason]
-    const getData = GetData.api('teams', season, 'http://api.football-data.org/v2/competitions/' + season + '/teams')
+    const getData = GetData.api('teams', season, 'https://api.football-data.org/v2/competitions/' + season + '/teams')
 
     getData.then(result => {
       let teams = result.teams
